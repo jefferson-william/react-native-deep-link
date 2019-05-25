@@ -7,6 +7,7 @@ class User extends Component {
   static navigationOptions = {
     header: null,
     headerMode: 'none',
+    path: 'user',
   }
 
   render() {

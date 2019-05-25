@@ -1,4 +1,7 @@
 {
   "name": "deeplink",
-  "displayName": "deeplink"
+  "displayName": "deeplink",
+  "expo": {
+    "scheme": "deeplink"
+  }
 }
