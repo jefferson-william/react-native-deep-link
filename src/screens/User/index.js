@@ -9,13 +9,16 @@ class User extends Component {
     headerMode: 'none',
   }
 
+  static path = 'user/:id'
+
   render() {
-    const { goBack } = this.props.navigation
+    const { goBack, getParam } = this.props.navigation
+    const id = getParam('id') ? getParam('id') : null
 
     return (
       <View style={styles.container}>
         <TouchableOpacity onPress={ () => goBack() }>
-          <Text style={styles.text}>User</Text>
+          <Text style={styles.text}>User {id}</Text>
         </TouchableOpacity>
       </View>
     );

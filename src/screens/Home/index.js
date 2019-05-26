@@ -9,6 +9,8 @@ class Home extends Component {
     headerMode: 'none',
   }
 
+  static path = 'home'
+
   render() {
     const { navigate } = this.props.navigation
 

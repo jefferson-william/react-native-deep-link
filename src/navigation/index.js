@@ -3,14 +3,8 @@ import Home from '../screens/Home'
 import User from '../screens/User'
 
 export const AppNavigator = createStackNavigator({
-  Home: {
-    screen: Home,
-    path: 'home',
-  },
-  User: {
-    screen: User,
-    path: 'user/:id',
-  },
+  Home,
+  User,
 });
 
 export default createAppContainer(AppNavigator);
