@@ -32,7 +32,7 @@
           <category android:name="android.intent.category.BROWSABLE" />
           <data
             android:scheme="https"
-            android:host="www.jogglepay.com"
+            android:host="www.deeplink.com"
             android:pathPrefix="/"
           />
         </intent-filter>
