@@ -7,7 +7,6 @@ class Home extends Component {
   static navigationOptions = {
     header: null,
     headerMode: 'none',
-    path: 'home',
   }
 
   render() {

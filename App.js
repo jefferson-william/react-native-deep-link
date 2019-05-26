@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Navigator from './src/navigation'
+import Navigator from './src/navigation';
 
 export const prefix = 'deeplink://';
 
