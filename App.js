@@ -1,10 +1,12 @@
 import React, {Component} from 'react';
 import Navigator from './src/navigation';
 
-export const prefix = 'deeplink://';
+export const prefixString = 'deeplink://';
+
+export const prefixRegExp = /https:\/\/www.deeplink.com\/|deeplink:\/\/deeplink\/|deeplink:\/\//
 
 export default class App extends Component {
   render() {
-    return <Navigator uriPrefix={prefix} />;
+    return <Navigator uriPrefix={prefixRegExp} />;
   }
 }
